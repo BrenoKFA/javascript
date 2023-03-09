@@ -3,10 +3,10 @@ function verificar() {
     const res = document.getElementById('res')
     
     if (idade >= 18) {
-        let resultadoDiv = document.getElementById("res")
-        resultadoDiv.innerHTML = "Você é maior de idade"
+        let resDiv = document.getElementById("res")
+        resDiv.innerHTML = "Você é maior de idade"
     } else {
-        let resultadoDiv = document.getElementById("res")
-        resultadoDiv.innerHTML = "Você é menor de idade"
+        let resDiv = document.getElementById("res")
+        resDiv.innerHTML = "Você é menor de idade"
     }
 }
