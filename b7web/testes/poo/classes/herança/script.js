@@ -12,12 +12,12 @@ class Person {
 
 class Student extends Person {
     constructor(name, id) {
-        super(name)
-        this.id = id
+        super(name) // pega o valor do pai (Person)
+        this.id = id // pega o valor do propio Student
     }
     
     sayHello() {
-        super.sayHi()
+        super.sayHi() // manda executar uma ação da Person
     }
 }
 

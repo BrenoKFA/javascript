@@ -1,5 +1,5 @@
 class Person {
-    static hands = 2
+    static hands = 2 // algo fixo da class Person
     age = 0
 
     constructor(name) {

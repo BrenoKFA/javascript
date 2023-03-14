@@ -23,10 +23,10 @@ class Person {
         if (typeof x == 'number') {
             this._age = x
         }
-    }
+    } // setter
 }
 
-let p1 = new Person("Breno", "Kauã")
+let p1 = new Person("Breno", "Kauã") // aciona o 'constructor'
 let p2 = new Person("Maria", "Leite")
 let p3 = new Person("Pedro", "Cunha")
 
