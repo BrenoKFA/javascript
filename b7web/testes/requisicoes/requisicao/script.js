@@ -47,3 +47,4 @@ function inserir() {
 
 document.querySelector('#botao').addEventListener('click', clicou)
 document.querySelector('#inserir').addEventListener('click', inserir)
+
