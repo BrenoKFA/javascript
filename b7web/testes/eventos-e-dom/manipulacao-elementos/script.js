@@ -35,9 +35,9 @@ function clique() {
     for (let c = 0; c < 5; c++) {
         let newLi = document.createElement('li')
         newLi.innerText = "Item add" + c
-        newUl.append(newLi)
+        newUl.appendChild(newLi)
     }
-    ul.after(newUl)
+    ul.after(newUl) 
     // cria um "ul" depois do "ul"
 }
 

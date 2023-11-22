@@ -5,9 +5,9 @@ function soltou(event) {
         const li = document.createElement('li')
         li.innerText = input.value
         ul.appendChild(li)
+
         input.value = ' '
     }
 }
 
-const input = document.querySelector('input')
 input.addEventListener('keyup', soltou)
